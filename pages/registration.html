@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Реєстрація</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>
+      Реєстрація
+    </h1>
+    <div class="header">
+      <nav class="nav-header">
+        <ul class="nav-header-list">
+          <li class="nav-header-list-li">
+            <a href="../index.html">
+              Головна
+            </a>
+          </li>
+          <li class="nav-header-list-li">
+            <a href="articles.html">
+              Статті
+            </a>
+          </li>
+          <li class="nav-header-list-li">
+            <a href="catalog.html">
+              Каталог
+            </a>
+          </li>
+          <li class="nav-header-list-li">
+            <a href="contacts.html">
+              Контакти
+            </a>
+          </li>
+          <li class="nav-header-list-li">
+            <a href="gallery.html">
+              Галерея
+            </a>
+          </li>
+          <li class="nav-header-list-li">
+            <a href="page-nav.html">
+              Навігація
+            </a>
+          </li>
+          <li class="nav-header-list-li">
+            <a href="registration.html">
+              Реєстрація
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main">
+      <form action="https://tests.fomenko.top/echo/index.php" method="get">
+
+        <fieldset>
+          <legend>Personal information</legend>
+
+          <div>
+            <label for="Surname-and-name">
+              Прізвище ім'я
+            </label>
+            <input required name="Surname-and-name" type="text" id="Surname-and-name" placeholder="Прізвище ім'я">
+          </div>
+
+          <div>
+            <label for="myself-photo">
+              Додати фотографію
+            </label>
+            <input type="file" name="myself-photo" id="myself-photo">
+          </div>
+
+          <div>
+            <label for="email">
+              Адреса електронної пошти
+            </label>
+            <input required type="email" name="email" id="email" placeholder="email">
+          </div>
+
+          <div>
+            <label for="password">
+              Пароль
+            </label>
+            <input required type="password" name="password" id="password" placeholder="Пароль">
+          </div>
+
+          <div>
+            <label for="sait-address">
+              Адреса сайту
+            </label>
+            <input type="url" name="sait-address" id="sait-address" value="https://mysite.name">
+          </div>
+
+          <div>
+            <input type="radio" name="sex" id="male" value="male">
+            <label for="male">
+              Чоловік
+            </label>
+          </div>
+          <div>
+            <input type="radio" name="sex" id="femail" value="female">
+            <label for="femail">
+              Жінка
+            </label>
+          </div>
+          <div>
+            <input checked type="radio" name="sex" id="unknown" value="unknown">
+            <label for="unknown">
+              -
+            </label>
+          </div>
+
+          <div>
+            <label for="date-of-birth">
+              Вибрати дату народження
+            </label>
+            <input required type="date" name="date-of-birth" id="date-of-birth">
+          </div>
+
+          <div>
+            <label for="UKR">
+              Виберіть улюблену кухню:
+            </label>
+            <div>
+              <input checked type="radio" name="cuisine" id="UKR" value="UKR">
+              <label for="UKR">українська</label>
+            </div>
+            <div>
+              <input type="radio" name="cuisine" id="GEO" value="GEO">
+              <label for="GEO">грузинська</label>
+            </div>
+            <div>
+              <input type="radio" name="cuisine" id="JPN" value="JPN">
+              <label for="JPN">японська</label>
+            </div>
+          </div>
+
+          <div>
+            <label for="about-yourself">
+              Про себе
+            </label>
+            <textarea name="about-yourself" id="about-yourself" cols="30" rows="10"
+              placeholder="Опишіть себе"></textarea>
+          </div>
+
+          <div>
+            <button type="submit"><b>Зареєструватися</b></button>
+            <button type="reset"><b>Очистити</b></button>
+          </div>
+        </fieldset>
+
+      </form>
+    </div>
+    <div class="footer">
+      <div>
+        <span>&#169;</span>
+        <span>Odnosum Denys</span>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
