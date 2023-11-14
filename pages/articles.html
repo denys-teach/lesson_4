@@ -5,88 +5,100 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Статті</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
   <div class="wrapper">
-    <h1>Статті</h1>
     <div class="header">
-      <nav class="nav-header">
-        <ul class="nav-header-list">
-          <li class="nav-header-list-li">
-            <a href="../index.html">
-              Головна
-            </a>
-          </li>
-          <li class="nav-header-list-li">
-            <a href="articles.html">
-              Статті
-            </a>
-          </li>
-          <li class="nav-header-list-li">
-            <a href="catalog.html">
-              Каталог
-            </a>
-          </li>
-          <li class="nav-header-list-li">
-            <a href="contacts.html">
-              Контакти
-            </a>
-          </li>
-          <li class="nav-header-list-li">
-            <a href="gallery.html">
-              Галерея
-            </a>
-          </li>
-          <li class="nav-header-list-li">
-            <a href="page-nav.html">
-              Навігація
-            </a>
-          </li>
-          <li class="nav-header-list-li">
-            <a href="registration.html">
-              Реєстрація
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <div class="logo">
+          <a href="../index.html">Site</a>
+        </div>
+        <nav class="nav-header">
+          <ul class="nav-header-list">
+            <li class="nav-header-list-li">
+              <a href="../index.html">Головна</a>
+            </li>
+            <li class="nav-header-list-li">
+              <a href="../pages/articles.html">Статті</a>
+            </li>
+            <li class="nav-header-list-li">
+              <a href="../pages/catalog.html">Каталог</a>
+            </li>
+            <li class="nav-header-list-li">
+              <a href="../pages/contacts.html">Контакти</a>
+            </li>
+            <li class="nav-header-list-li">
+              <a href="../pages/gallery.html">Галерея</a>
+            </li>
+            <li class="nav-header-list-li">
+              <a href="../pages/page-nav.html">Навігація</a>
+            </li>
+            <li class="nav-header-list-li">
+              <a href="../pages/registration.html">Реєстрація</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
     <div class="main">
-      <div>
-        <h2>
-          <a href="articles/first-article.html">
-            Як вивчити JS за 2 години?
-          </a>
-        </h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit... >>>
-          <a href="articles/first-article.html#first-article">читати далі</a>
-        </p>
-        <a href="articles/first-article.html#comments">Перейти до коментарів</a>
-      </div>
-      <div>
-        <h2>
-          <a href="articles/second-article.html">
-            Яку мову програмування краще обрати?
-          </a>
-        </h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit... >>>
-          <a href="articles/second-article.html#second-article">читати далі</a>
-        </p>
-        <a href="articles/second-article.html#comments">Перейти до коментарів</a>
-      </div>
-      <div>
-        <h2>
-          <a href="articles/third-article.html">
-            Як стати гарним джуном?
-          </a>
-        </h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit... >>>
-          <a href="articles/third-article.html#third-article">читати далі</a>
-        </p>
-        <a href="articles/third-article.html#comments">Перейти до коментарів</a>
+      <h1>Статті</h1>
+      <div class="content">
+        <div class="article_one">
+          <h2 class="article_one-h2">
+            <a href="articles/first-article.html">
+              Як вивчити JS за 2 години?
+            </a>
+          </h2>
+          <div class="article-text">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit... >>>
+              <a href="articles/first-article.html#first-article">читати далі</a>
+            </p>
+          </div>
+          <div class="comments">
+            <a href="articles/first-article.html#comments">Перейти до коментарів</a>
+          </div>
+        </div>
+        <div class="article_two">
+          <h2 class="article_one-h2">
+            <a href="articles/second-article.html">
+              Яку мову програмування краще обрати?
+            </a>
+          </h2>
+          <div class="article-text">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit... >>>
+              <a href="articles/second-article.html#second-article">читати далі</a>
+            </p>
+          </div>
+          <div class="comments">
+            <a href="articles/second-article.html#comments">Перейти до коментарів</a>
+          </div>
+        </div>
+        <div class="article_three">
+          <h2 class="article_one-h2">
+            <a href="articles/third-article.html">
+              Як стати гарним джуном?
+            </a>
+          </h2>
+          <div class="article-text">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, sunt cupiditate reiciendis fuga ut
+              explicabo incidunt, magni omnis tempore veritatis minima repellendus numquam, eligendi reprehenderit.
+              Vitae quisquam velit accusamus corporis.... >>>
+              <a href="articles/third-article.html#third-article">читати далі</a>
+            </p>
+          </div>
+          <div class="comments">
+            <a href="articles/third-article.html#comments">Перейти до коментарів</a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="footer">
