@@ -13,81 +13,91 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <div class="header">
-      <div class="container">
-        <div class="logo">
-          <a href="../index.html">Site</a>
-        </div>
-        <nav class="nav-header">
-          <ul class="nav-header-list">
-            <li class="nav-header-list-li">
-              <a href="../index.html">Головна</a>
-            </li>
-            <li class="nav-header-list-li">
-              <a href="../pages/articles.html">Статті</a>
-            </li>
-            <li class="nav-header-list-li">
-              <a href="../pages/catalog.html">Каталог</a>
-            </li>
-            <li class="nav-header-list-li">
-              <a href="../pages/contacts.html">Контакти</a>
-            </li>
-            <li class="nav-header-list-li">
-              <a href="../pages/gallery.html">Галерея</a>
-            </li>
-            <li class="nav-header-list-li">
-              <a href="../pages/page-nav.html">Навігація</a>
-            </li>
-            <li class="nav-header-list-li">
-              <a href="../pages/registration.html">Реєстрація</a>
-            </li>
-          </ul>
-        </nav>
+  <div class="wrapper"></div>
+  <div class="header">
+    <div class="container">
+      <div class="logo">
+        <a href="../index.html">Site</a>
       </div>
+      <nav class="nav-header">
+        <ul class="nav-header-list">
+          <li class="nav-header-list-li">
+            <a href="../index.html">Головна</a>
+          </li>
+          <li class="nav-header-list-li">
+            <a href="../pages/articles.html">Статті</a>
+          </li>
+          <li class="nav-header-list-li">
+            <a href="../pages/catalog.html">Каталог</a>
+          </li>
+          <li class="nav-header-list-li">
+            <a href="../pages/contacts.html">Контакти</a>
+          </li>
+          <li class="nav-header-list-li">
+            <a href="../pages/gallery.html">Галерея</a>
+          </li>
+          <li class="nav-header-list-li">
+            <a href="../pages/page-nav.html">Навігація</a>
+          </li>
+          <li class="nav-header-list-li">
+            <a href="../pages/registration.html">Реєстрація</a>
+          </li>
+        </ul>
+      </nav>
     </div>
+  </div>
 
-    <div class="main">
+  <div class="main">
+    <div>
+      <h1>Реєстрація</h1>
       <form action="https://tests.fomenko.top/echo/index.php" method="get">
 
-        <fieldset>
+        <fieldset class="form-fieldset">
           <legend>Personal information</legend>
 
-          <div>
+          <div class="form-for-list">
             <label for="Surname-and-name">
               Прізвище ім'я
             </label>
             <input required name="Surname-and-name" type="text" id="Surname-and-name" placeholder="Прізвище ім'я">
           </div>
 
-          <div>
+          <div class="form-for-list">
             <label for="myself-photo">
               Додати фотографію
             </label>
             <input type="file" name="myself-photo" id="myself-photo">
           </div>
 
-          <div>
+          <div class="form-for-list">
             <label for="email">
               Адреса електронної пошти
             </label>
             <input required type="email" name="email" id="email" placeholder="email">
           </div>
 
-          <div>
+          <div class="form-for-list">
             <label for="password">
               Пароль
             </label>
             <input required type="password" name="password" id="password" placeholder="Пароль">
           </div>
 
-          <div>
+          <div class="form-for-list">
             <label for="sait-address">
               Адреса сайту
             </label>
             <input type="url" name="sait-address" id="sait-address" value="https://mysite.name">
           </div>
-
+          <div class="form-for-list">
+            <label for="date-of-birth">
+              Вибрати дату народження
+            </label>
+            <input required type="date" name="date-of-birth" id="date-of-birth">
+          </div>
+        </fieldset>
+        <fieldset class="form-fieldset">
+          <legend>Виберіть стать</legend>
           <div>
             <input type="radio" name="sex" id="male" value="male">
             <label for="male">
@@ -106,15 +116,10 @@
               -
             </label>
           </div>
-
-          <div>
-            <label for="date-of-birth">
-              Вибрати дату народження
-            </label>
-            <input required type="date" name="date-of-birth" id="date-of-birth">
-          </div>
-
-          <div>
+        </fieldset>
+        <fieldset class="form-fieldset">
+          <legend>Кухня</legend>
+          <div class="form-for-list">
             <label for="UKR">
               Виберіть улюблену кухню:
             </label>
@@ -132,7 +137,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="form-for-list">
             <label for="about-yourself">
               Про себе
             </label>
@@ -148,11 +153,10 @@
 
       </form>
     </div>
-    <div class="footer">
-      <div>
-        <span>&#169;</span>
-        <span>Odnosum Denys</span>
-      </div>
+  </div>
+  <div class="footer">
+    <div class="container footer-inner">
+      <span class="copyright">&#169; Odnosum Denys</span>
     </div>
   </div>
 </body>
